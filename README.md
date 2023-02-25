@@ -4,5 +4,5 @@ Bijoy Classic and Bijoy Unicode are two proprietary ANSI keyboard layouts that a
 
 ## Requirements
 
-1. ibus and ibus-m17b
+1. ibus and ibus-m17n
 2. Bijoy Keyboard Application files
