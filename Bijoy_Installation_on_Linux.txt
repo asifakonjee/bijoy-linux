@@ -7,7 +7,8 @@
 
 
 ##-------- Now download and unzip the (the bijoy linux.zip) file. I suggest you to download from official website paying 100/-.
-However, for this google can be your best friend too! After downloading, unzip the file and follow these steps:
+
+After downloading, unzip the file and follow these steps:
 
 1. cd into Bijoy Linux folder using terminal or open the folder in your file manager.
 2. Open a terminal in that folder and copy-paste the following commands:
