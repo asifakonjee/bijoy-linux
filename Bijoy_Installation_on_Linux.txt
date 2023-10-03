@@ -11,14 +11,27 @@
 After downloading, unzip the file and follow these steps:
 
 1. cd into Bijoy Linux folder using terminal or open the folder in your file manager.
-2. Open a terminal in that folder and copy-paste the following commands:
+2. Open a terminal in that folder by right clicking and selecting open terminal here and copy-paste the following commands one by one:
 
 - sudo cp bn-bijoyClassic.mim /usr/share/m17n/
 - sudo cp bn-bijoyClassic.png /usr/share/m17n/icons/
+- sudo cp bn-bijoyUnicode.mim /usr/share/m17n/
+- sudo cp bn-bijoyUnicode.png /usr/share/m17n/icons/
 
-3. Open this folder: /usr/share/ibus-m17n/ either by your file manager or using terminal.
+3. Open Downloaded Bijoy Folder again and enter into the fonts folder.
+4. Install SutonnyMJ font or your fonts of choice --- This is very important as you can write Bangla in Bijoy Classic only using the ANSI fonts like SutonnyMJ.
+5. Log out and log back in Or restart ibus.
+6. In the ibus preferences, add bn-bijoyClassic and bijoyUnicode.
+7. Finally, You have Bijoy keyboard in your Linux system.
 
-4. Open defaults.xml in your preferred text editor (nano,micro,vim,geany,gedit,kate etc) and add these lines before the last </engine>
+8. Use only if you need it badly!
+Linux is free and open source and it has a wide range of convenient and better Bangla keyboards with much modern Unicode system.
+
+## Extra Steps (Not required usually)
+
+1. Open this folder: /usr/share/ibus-m17n/ either by your file manager or using terminal.
+
+2. Open defaults.xml in your preferred text editor (nano,micro,vim,geany,gedit,kate etc) and add these lines before the last </engine>
 
 	<engine>
 		<name>m17n:bn-bijoyClassic:*</name>
@@ -26,15 +39,3 @@ After downloading, unzip the file and follow these steps:
 	</engine>
 
 N.B. - Do this carefully maintaining the correct line alignment.
-
-5. Open Downloaded Bijoy Folder again and enter into the fonts folder.
-6. Install SutonnyMJ font or your fonts of choice --- This is very important.
-7. Log out and log back in.
-8. In the ibus preferences, add bn-bijoyClassic.
-9. Finally, You have Bijoy Classic keyboard in your Linux system.
-
-10. Use only if you need it badly!
-Linux is free and open source and it has a wide range of convenient and better Bangla keyboards with much modern Unicode system.
-
-## N.B. -- You can write Bangla in Bijoy Classic only using the ANSI fonts like SutonnyMJ. If you like to install Bijoy Unicode then the
-steps will be the same; just change bn-bijoyClassic with bn-bijoyUnicode.
